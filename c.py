@@ -9,8 +9,8 @@ def random_noise():
         temp = temp + i
 
     return temp
-
-def hypotenuse(x, b):
+## The next line is buggy due to it being hypotenuse(x.b) bu the following line refers to x and y
+def hypotenuse(x, y):
     return math.sqrt(x**2 + y**2)
 
 if __name__ == "__main__":
